@@ -14,6 +14,7 @@
 		F22A157A24DAB474000702BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22A157924DAB474000702BA /* Assets.xcassets */; };
 		F22A157D24DAB474000702BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22A157B24DAB474000702BA /* LaunchScreen.storyboard */; };
 		F22A158024DAB474000702BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F22A157F24DAB474000702BA /* main.m */; };
+		F22A158724DAB4B7000702BA /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = F22A158624DAB4B7000702BA /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		F22A157C24DAB474000702BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F22A157E24DAB474000702BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F22A157F24DAB474000702BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F22A158624DAB4B7000702BA /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		F22A156C24DAB472000702BA /* OpenGL_ES_ParticleSystem */ = {
 			isa = PBXGroup;
 			children = (
+				F22A158624DAB4B7000702BA /* ball.png */,
 				F22A156D24DAB472000702BA /* AppDelegate.h */,
 				F22A156E24DAB472000702BA /* AppDelegate.m */,
 				F22A157024DAB472000702BA /* SceneDelegate.h */,
@@ -135,6 +138,7 @@
 			files = (
 				F22A157D24DAB474000702BA /* LaunchScreen.storyboard in Resources */,
 				F22A157A24DAB474000702BA /* Assets.xcassets in Resources */,
+				F22A158724DAB4B7000702BA /* ball.png in Resources */,
 				F22A157824DAB472000702BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OpenGL_ES_ParticleSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +312,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OpenGL_ES_ParticleSystem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
